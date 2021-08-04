@@ -30,5 +30,11 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+#projects li {
+  @include grid(2, 2%);
+  img {
+    width: 100%;
+  }
+}
 </style>
