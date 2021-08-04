@@ -1,5 +1,7 @@
 # sass-net-ninja
 
+The SASS Net Ninja project, but with Vue 3.
+
 ## Project setup
 ```
 npm install
