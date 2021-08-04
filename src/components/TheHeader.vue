@@ -44,6 +44,9 @@ export default defineComponent({
   li {
     float: left;
     width: (100% / 6);
+    @include mQ(600px){
+      width: 100%;
+    };
   }
   a {
     color: $offWhite;
