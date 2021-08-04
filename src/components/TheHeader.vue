@@ -57,4 +57,9 @@ export default defineComponent({
   display: block;
   clear: both;
 } // end #main-nav
+
+.lead-banner {
+  @include banner;
+  text-align: right;
+}
 </style>
