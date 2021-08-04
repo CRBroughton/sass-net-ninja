@@ -56,5 +56,5 @@ export default defineComponent({
   content: "";
   display: block;
   clear: both;
-}
+} // end #main-nav
 </style>
