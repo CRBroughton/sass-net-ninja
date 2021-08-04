@@ -49,7 +49,7 @@ export default defineComponent({
     color: $deepBlue;
     font-weight: bold;
     &:hover {
-      color: red;
+      color: complement($deepBlue);
     }
   }
   ul {
