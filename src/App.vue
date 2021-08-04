@@ -25,7 +25,7 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
+<style>
 body {
   font-family: arial;
   background: #f8f9fb;
