@@ -37,5 +37,24 @@ export default defineComponent({
 <style scoped lang="scss">
 #main-nav {
   background: $deepBlue;
+  ul {
+    width: 100%;
+  }
+  li {
+    float: left;
+    width: 14%;
+  }
+  a {
+    color: $offWhite;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center;
+  }
+}
+#main-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 </style>
