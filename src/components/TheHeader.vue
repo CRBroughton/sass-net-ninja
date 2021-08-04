@@ -43,7 +43,7 @@ export default defineComponent({
   }
   li {
     float: left;
-    width: 14%;
+    width: (100% / 6);
   }
   a {
     color: $offWhite;
