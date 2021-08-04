@@ -25,7 +25,7 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style lang="scss">
 body {
   font-family: arial;
   background: #f8f9fb;
@@ -41,6 +41,11 @@ fieldset,
 legend {
   margin: 0;
   padding: 0;
+}
+
+section h1 {
+  font-size: $sectionHeading;
+  color: $deepBlue;
 }
 
 h1,

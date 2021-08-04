@@ -34,5 +34,8 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+#main-nav {
+  background: $deepBlue;
+}
 </style>
