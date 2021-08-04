@@ -39,6 +39,7 @@ export default defineComponent({
   background: $deepBlue;
   ul {
     width: 100%;
+    @include clearFix;
   }
   li {
     float: left;
@@ -50,12 +51,10 @@ export default defineComponent({
     padding: 16px;
     display: block;
     text-align: center;
+    &:hover {
+      background: #333;
+    }
   }
-}
-#main-nav ul:after {
-  content: "";
-  display: block;
-  clear: both;
 } // end #main-nav
 
 .lead-banner {
