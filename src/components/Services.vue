@@ -31,5 +31,29 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+#services {
+  margin-bottom: 60px;
+  li {
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    width: (100% / 3);
+  }
+  img {
+    width: 60%;
+    margin: 20px 20%;
+  }
+  a {
+    text-decoration: none;
+    color: $deepBlue;
+    font-weight: bold;
+    &:hover {
+      color: red;
+    }
+  }
+  ul {
+    @include clearFix;
+  }
+}
 </style>
