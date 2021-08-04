@@ -1,6 +1,6 @@
 <template>
   <div class="lessons-banner">
-    <img src="img/banner-2.png" />
+    <img src="../assets/banner-2.png" />
     <div class="banner-content">
       <div class="wrapper">
         <span class="title">Our Lessons</span>

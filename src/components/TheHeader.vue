@@ -13,7 +13,7 @@
       </div>
     </nav>
     <div class="lead-banner">
-      <img src="img/banner-1.png" />
+      <img src="../assets/banner-1.png" />
       <div class="banner-content">
         <div class="wrapper">
           <span class="title">Check our video</span>
