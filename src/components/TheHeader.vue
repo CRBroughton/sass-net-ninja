@@ -52,7 +52,7 @@ export default defineComponent({
     display: block;
     text-align: center;
     &:hover {
-      background: #333;
+      background: lighten($deepBlue, 5);
     }
   }
 } // end #main-nav
